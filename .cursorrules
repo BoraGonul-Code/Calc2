@@ -1,0 +1,13 @@
+## Response Formatting Rules
+
+- Use clean, readable math formatting in responses.
+- Prefer LaTeX math delimiters:
+  - Inline math: `$...$`
+  - Display math: `$$...$$`
+- Use display math for multi-step formulas, derivations, and final boxed results.
+- Keep notation consistent within a response (do not mix styles unnecessarily).
+- Avoid raw escaped fragments such as `\\left(`, `\\right)`, or visibly broken markdown/math output.
+- When introducing a formula, define variables in plain language first.
+- For calculus/algebra explanations, provide short step-by-step math with clear transitions.
+- Prefer concise, practical math presentation over verbose prose when the user asks for clarity.
+

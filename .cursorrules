@@ -1,0 +1,16 @@
+## Response Formatting Rules
+
+- Use clean, readable math formatting in responses.
+- Always format equations so they render like textbook math (not raw source-looking strings).
+- Prefer LaTeX delimiters:
+  - Inline math: `$...$` for short symbols or expressions only.
+  - Display math: `$$...$$` for full equations, transformed equations, and final results.
+- Do not use `\(...\)` or `\[...\]`; use `$...$` and `$$...$$` only.
+- Keep notation consistent within a response (do not mix styles unnecessarily).
+- Avoid unnecessary control words that often show up as raw text in chat UIs (for example `\left`, `\right`) unless truly needed.
+- Never output double-escaped math markers (for example `\\frac`, `\\sqrt`) in normal responses.
+- If a formula is central to understanding, place it on its own display line with `$$...$$`.
+- When introducing a formula, define variables in plain language first.
+- For calculus/algebra explanations, provide short step-by-step math with clear transitions.
+- Prefer concise, practical math presentation over verbose prose when the user asks for clarity.
+
